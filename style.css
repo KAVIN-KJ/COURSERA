@@ -1,0 +1,51 @@
+
+ /* Set background color of navbar and dropdown menu */
+ .navbar, .dropdown-menu {
+	background-color: #f8f8f8;
+  }
+
+  /* Set background color of the section */
+  #section {
+	background-color: #fafafa;
+	height: 1000px;
+  }
+
+  /* Add padding to section content */
+  #section .row {
+	padding-top: 50px;
+  }
+  .caret{
+	  box-align: right;
+  }
+  p{
+	  font-size: 120%;
+  }
+  .navbar-brand,.visible-xs{
+	  background-color: rgb(164, 164, 164);
+  }
+	  @media screen and (max-width: 200000px) and (min-width: 769px) {
+  .Food {
+
+	  height: 40px;
+	  background: grey;
+	  font-size: 30px;
+	  color: black;
+	  margin-left:0px;
+	  padding:30px;
+  }
+  .Food:hover{
+	  height: 40px;
+	  text-decoration: none;
+	  background: rgb(0, 0, 0);
+	  font-size: 30px;
+	  color: rgb(255, 255, 255);
+	  margin-left:0px;
+	  padding:30px;
+	  transition: 250ms ease;
+  }
+}
+@media screen and (max-width:768px) and (min-width:100px){
+	  .Food {
+	  visibility: hidden;
+  }
+}
